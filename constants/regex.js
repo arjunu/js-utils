@@ -1,0 +1,1 @@
+export const REGEX_HEX_COLOR = /(^#[0-9A-f]{6}$)|(^#[0-9a-f]{3}$)/i;
