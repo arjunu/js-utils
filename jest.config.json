@@ -1,0 +1,9 @@
+{
+  "moduleFileExtensions": [
+    "js"
+  ],
+  "moduleDirectories": [
+    "node_modules"
+  ],
+  "testEnvironment": "node"
+}
