@@ -1,4 +1,3 @@
-import {HTMLColors} from '../constants/color';
-import {REGEX_HEX_COLOR} from '../constants/regex';
+import isValidHTMLColor from './isValidHTMLColor';
 
-export const isValidHTMLColor = color => HTMLColors.includes(color) || REGEX_HEX_COLOR.test(color.toLowerCase());
+export {isValidHTMLColor};
