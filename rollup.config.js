@@ -21,7 +21,7 @@ const plugins = production ? [
     functions: ['console.log', 'assert.*', 'debug', 'alert'],
     sourceMap: true
   }),
-  // uglify()
+  uglify()
 ] : [...commonPlugins];
 
 export default {
