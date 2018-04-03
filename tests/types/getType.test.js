@@ -1,4 +1,4 @@
-import {getType} from '../../index';
+import {getType} from '../../src/index';
 
 describe("isValidHTMLColor tests", () => {
   test("Tests", () => {

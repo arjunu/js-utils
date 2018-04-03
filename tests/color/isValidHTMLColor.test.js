@@ -1,4 +1,4 @@
-import {isValidHTMLColor} from '../../index';
+import {isValidHTMLColor} from '../../src/index';
 
 describe("isValidHTMLColor tests", () => {
   test("Truthy tests", () => {
